@@ -9,11 +9,8 @@ Num_Rolamento = None
 modelo = 0
 Ancora_rolamento = None
 anchor = 0
-BPFI = 0
-BSF = 0
 
-fab_coletados = ['BARDEN', 'NDH', 'COOPER', 'RHP', 'FAFNIR', 'TIMK', 'LINKBELT', 'TIMKEN', 'NN3022',
-                 'FAG', 'MESSENGR', 'REXNORD', 'TORR', 'INA', 'MRC', 'SEALMSTR', 'SNFA', 'MCGILL', 'ROLLWAY']
+fab_coletados = []
 
 workbook = openpyxl.Workbook()
 sheet = workbook.active
@@ -68,7 +65,6 @@ while Num_Rolamento != "U-4034-A.1":
     time.sleep(0.30)
 
     # Copiando Nome do Rolamento
-        
     pyautogui.hotkey('ctrl', 'c')
     time.sleep(0.1)
     Num_Rolamento = pyperclip.paste()
@@ -112,9 +108,6 @@ while Num_Rolamento != "U-4034-A.1":
         BPFO = pyperclip.paste()
         time.sleep(0.1)
         print(BPFO)
-        
-        if Num_Rolamento == BPFO:
-            time.sleep(4)
 
         # Copiando BPFI
         pyautogui.click(919,641)
