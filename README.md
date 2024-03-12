@@ -32,7 +32,7 @@ This code will only work if you redo the modifications of the dataframe that is 
 Don't forget to put your aws credentials!
 
 <p align="center">
-    <img src="(https://github.com/iagoapiai/Python-Software-Data-Extractor/assets/116030785/aaa92bd4-d7b9-42b3-9a83-bf3f91089ea9)
+    <img src="https://github.com/iagoapiai/Python-Software-Data-Extractor/assets/116030785/aaa92bd4-d7b9-42b3-9a83-bf3f91089ea9
 ">
 </p>
 
