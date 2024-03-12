@@ -3,11 +3,12 @@ import openpyxl
 import time
 import pyperclip
 
+Ancora_rolamento = None
+Num_Rolamento = None
+
 linha = 2
 rolamento = 0
-Num_Rolamento = None
 modelo = 0
-Ancora_rolamento = None
 anchor = 0
 
 fab_coletados = []
